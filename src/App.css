@@ -1,0 +1,67 @@
+.App {
+  width: 500px;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  color: red;
+}
+
+.content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+}
+.contentTop {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.inputTodo {
+  flex: 1;
+  border: none;
+}
+.inputTodo:focus {
+  outline: none;
+}
+
+.hr {
+  color: silver;
+  margin: 0;
+}
+.plus {
+  font-size: 25px;
+  font-weight: bold;
+  margin: auto 8px 9px 0px;
+}
+.todoContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btnDelete {
+  color: red;
+  margin: auto 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.todoTitle {
+  cursor: default;
+  flex: 1;
+  padding-left: 15px;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bottomCenter {
+  display: flex;
+}
+.loc {
+  margin: 0 5px;
+  padding: 2px;
+}
